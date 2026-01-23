@@ -61,7 +61,7 @@ if vezes_rodadas <= 0:
 pygame.init()
 fonte = pygame.font.SysFont('Minecraft', 50)
 relogio = pygame.time.Clock()
-tela = pygame.display.set_mode((1600,800))
+tela = pygame.display.set_mode((1600,800), pygame.RESIZABLE)
 pygame.display.set_caption("Algoritmos de Sorteacao Python")
 
 sortear_array_quadrados(array_quadrados,array)
