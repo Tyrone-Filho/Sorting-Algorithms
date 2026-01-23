@@ -150,7 +150,7 @@ while True:
         if tamanho_array >= (10 ** (x+1)):
             x += 1
         if tamanho_array >= (10 ** x):
-            tamanho_array += (10 ** (x - 1))
+            tamanho_array -= (10 ** (x - 1))
         else:
             tamanho_array -= 5
         sortear_array_quadrados(array_quadrados, array)
